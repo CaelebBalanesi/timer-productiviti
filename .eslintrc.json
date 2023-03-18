@@ -5,8 +5,9 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["tsconfig.json"],
-        "createDefaultProgram": true
+        "project": ["timer-productiviti/tsconfig.json"],
+        "createDefaultProgram": true,
+        "tsconfigRootDir": ["__dirname"]
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
