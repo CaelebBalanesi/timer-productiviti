@@ -1,7 +1,0 @@
-{
-  "name": "timer-productiviti",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
