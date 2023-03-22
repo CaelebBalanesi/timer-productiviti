@@ -1,0 +1,41 @@
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.timer{
+  position: absolute;
+  width: 80%;
+  aspect-ratio: 1;
+  top: 57.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.time-left-ani{
+  position: absolute;
+  background-color: purple;
+  width: 50%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.time-left{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

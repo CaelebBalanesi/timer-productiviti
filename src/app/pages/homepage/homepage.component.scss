@@ -1,0 +1,25 @@
+.container{
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(10, 10%);
+}
+
+.navbar{
+  background-color: rgba(0,0,255,0.5);
+  grid-column: 1 / 11;
+  grid-row: 1 / 1;
+}
+
+.timer-menu{
+  background-color: rgba(255,0,0,0.5);
+  grid-column: 4 / 11;
+  grid-row: 2 / 11;
+}
+
+.new-timer-creator{
+  background-color: rgba(0,255,0,0.5);
+  grid-column: 1 / 4;
+  grid-row: 2 / 11;
+}
