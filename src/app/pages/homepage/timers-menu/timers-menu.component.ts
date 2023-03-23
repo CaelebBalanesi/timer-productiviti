@@ -10,6 +10,6 @@ export class TimersMenuComponent {
   timerJson = {
     title: 'This is a title',
     totalTime: 3600,
-    usedTime: 1200
+    timeLeft: 1200
   }
 }

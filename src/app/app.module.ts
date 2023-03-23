@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +9,7 @@ import { TimersMenuComponent } from './pages/homepage/timers-menu/timers-menu.co
 import { NewTimerMenuComponent } from './pages/homepage/new-timer-menu/new-timer-menu.component';
 import { TimerComponent } from './pages/homepage/timers-menu/timer/timer.component';
 import { TimePipe } from './pages/homepage/timers-menu/timer/time.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,13 @@ import { TimePipe } from './pages/homepage/timers-menu/timer/time.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
