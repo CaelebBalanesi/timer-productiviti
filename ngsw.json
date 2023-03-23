@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1679550042632,
+  "timestamp": 1679550278246,
   "index": "/timer-productiviti/index.html",
   "assetGroups": [
     {
@@ -29,6 +29,11 @@
         "ignoreVary": true
       },
       "urls": [
+        "/timer-productiviti/assets/icons/android-chrome-192x192.png",
+        "/timer-productiviti/assets/icons/android-chrome-512x512.png",
+        "/timer-productiviti/assets/icons/apple-touch-icon.png",
+        "/timer-productiviti/assets/icons/favicon-16x16.png",
+        "/timer-productiviti/assets/icons/favicon-32x32.png",
         "/timer-productiviti/assets/icons/icon-128x128.png",
         "/timer-productiviti/assets/icons/icon-144x144.png",
         "/timer-productiviti/assets/icons/icon-152x152.png",
@@ -43,6 +48,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/timer-productiviti/assets/icons/android-chrome-192x192.png": "e827117d8113a1c2d494c9a82a9e8d13e5e3a6ae",
+    "/timer-productiviti/assets/icons/android-chrome-512x512.png": "707521ee1fe58252421146c915278f854c5863ea",
+    "/timer-productiviti/assets/icons/apple-touch-icon.png": "cd315da2d549fdae7d1f1a7dded9cee490962bea",
+    "/timer-productiviti/assets/icons/favicon-16x16.png": "706c4727944bc198b57799db7b64d849ee9ce294",
+    "/timer-productiviti/assets/icons/favicon-32x32.png": "002d9747b3d0ef8d7b08eb001c7e387a0d5ca7be",
     "/timer-productiviti/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/timer-productiviti/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/timer-productiviti/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -54,7 +64,7 @@
     "/timer-productiviti/favicon.ico": "1d3df8aa2e582aaa98bc8a7b9049725bb81d11fe",
     "/timer-productiviti/index.html": "f33cef6b8d68dbf7e1104e1213b67f9417f4d5c3",
     "/timer-productiviti/main.8d91520aff75dfa2.js": "1478452a644be1b8d5410507e5fcc28d417a96a9",
-    "/timer-productiviti/manifest.webmanifest": "d4d94bde6253d53caa76917555260458e630610a",
+    "/timer-productiviti/manifest.webmanifest": "161c0ae500000092ed919e5eae2d14e413402c5a",
     "/timer-productiviti/polyfills.6a1904376de20a0d.js": "012fa3014ed9974f170bfdabf7caceedba0ee94b",
     "/timer-productiviti/runtime.2deb8fd608e514e1.js": "ae0b5dc6df5c342967d110d2fef8711b967cd011",
     "/timer-productiviti/styles.e0604820a81d8dbc.css": "ca64635bfd36fb0bcb320d52b0f2b21d79fe215c"
