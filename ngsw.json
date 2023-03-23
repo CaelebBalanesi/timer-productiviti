@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1679550932345,
+  "timestamp": 1679551252080,
   "index": "/timer-productiviti/index.html",
   "assetGroups": [
     {
@@ -30,25 +30,31 @@
       },
       "urls": [
         "/timer-productiviti/assets/icons/android-chrome-192x192.png",
-        "/timer-productiviti/assets/icons/android-chrome-512x512.png",
+        "/timer-productiviti/assets/icons/android-chrome-256x256.png",
         "/timer-productiviti/assets/icons/apple-touch-icon.png",
         "/timer-productiviti/assets/icons/favicon-16x16.png",
-        "/timer-productiviti/assets/icons/favicon-32x32.png"
+        "/timer-productiviti/assets/icons/favicon-32x32.png",
+        "/timer-productiviti/assets/icons/favicon.ico",
+        "/timer-productiviti/assets/icons/mstile-150x150.png",
+        "/timer-productiviti/assets/icons/safari-pinned-tab.svg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/timer-productiviti/assets/icons/android-chrome-192x192.png": "e827117d8113a1c2d494c9a82a9e8d13e5e3a6ae",
-    "/timer-productiviti/assets/icons/android-chrome-512x512.png": "707521ee1fe58252421146c915278f854c5863ea",
-    "/timer-productiviti/assets/icons/apple-touch-icon.png": "cd315da2d549fdae7d1f1a7dded9cee490962bea",
-    "/timer-productiviti/assets/icons/favicon-16x16.png": "706c4727944bc198b57799db7b64d849ee9ce294",
-    "/timer-productiviti/assets/icons/favicon-32x32.png": "002d9747b3d0ef8d7b08eb001c7e387a0d5ca7be",
+    "/timer-productiviti/assets/icons/android-chrome-192x192.png": "7f60edbd2072c050aead1cd7f1134fc7eb14668f",
+    "/timer-productiviti/assets/icons/android-chrome-256x256.png": "00dbce090cdae53e6914cf4c8324a1d1eac4b6ac",
+    "/timer-productiviti/assets/icons/apple-touch-icon.png": "76c34d0092b7e7b2fc8f3050be10b82a11b52ecf",
+    "/timer-productiviti/assets/icons/favicon-16x16.png": "e00a7655cecaf11fefb0906312e351d76d393f31",
+    "/timer-productiviti/assets/icons/favicon-32x32.png": "97e0065bc876f10eac6e82686e99d864821d28f0",
+    "/timer-productiviti/assets/icons/favicon.ico": "fea70aa1acb5dd8b8194f3ed1573f9b73923528f",
+    "/timer-productiviti/assets/icons/mstile-150x150.png": "23b3fc714a426b9e46d979c67da112c6600ff733",
+    "/timer-productiviti/assets/icons/safari-pinned-tab.svg": "d5a133dfccea64b08bf8180e86c15f9743e1ce43",
     "/timer-productiviti/favicon.ico": "1d3df8aa2e582aaa98bc8a7b9049725bb81d11fe",
     "/timer-productiviti/index.html": "f33cef6b8d68dbf7e1104e1213b67f9417f4d5c3",
     "/timer-productiviti/main.8d91520aff75dfa2.js": "1478452a644be1b8d5410507e5fcc28d417a96a9",
-    "/timer-productiviti/manifest.webmanifest": "cd38a153ec468abafc401cf307ba5f437764c86c",
+    "/timer-productiviti/manifest.webmanifest": "3dd0fdd2fd69ab1d0bb35aaac4b6ae48f35cdcff",
     "/timer-productiviti/polyfills.6a1904376de20a0d.js": "012fa3014ed9974f170bfdabf7caceedba0ee94b",
     "/timer-productiviti/runtime.2deb8fd608e514e1.js": "ae0b5dc6df5c342967d110d2fef8711b967cd011",
     "/timer-productiviti/styles.e0604820a81d8dbc.css": "ca64635bfd36fb0bcb320d52b0f2b21d79fe215c"
