@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1679551505103,
+  "timestamp": 1679551619915,
   "index": "/timer-productiviti/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,6 @@
         "/timer-productiviti/favicon.ico",
         "/timer-productiviti/index.html",
         "/timer-productiviti/main.8d91520aff75dfa2.js",
-        "/timer-productiviti/manifest.webmanifest",
         "/timer-productiviti/polyfills.6a1904376de20a0d.js",
         "/timer-productiviti/runtime.2deb8fd608e514e1.js",
         "/timer-productiviti/styles.e0604820a81d8dbc.css"
@@ -54,7 +53,6 @@
     "/timer-productiviti/favicon.ico": "1d3df8aa2e582aaa98bc8a7b9049725bb81d11fe",
     "/timer-productiviti/index.html": "f33cef6b8d68dbf7e1104e1213b67f9417f4d5c3",
     "/timer-productiviti/main.8d91520aff75dfa2.js": "1478452a644be1b8d5410507e5fcc28d417a96a9",
-    "/timer-productiviti/manifest.webmanifest": "7ac093f4d41c9a9dd021353a6e41b9375ea2b8f7",
     "/timer-productiviti/polyfills.6a1904376de20a0d.js": "012fa3014ed9974f170bfdabf7caceedba0ee94b",
     "/timer-productiviti/runtime.2deb8fd608e514e1.js": "ae0b5dc6df5c342967d110d2fef8711b967cd011",
     "/timer-productiviti/styles.e0604820a81d8dbc.css": "ca64635bfd36fb0bcb320d52b0f2b21d79fe215c"
