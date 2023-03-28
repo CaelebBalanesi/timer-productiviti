@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { TimerData } from './TimerData';
 
 @Component({
   selector: 'app-timer',
@@ -7,22 +8,19 @@ import { AfterViewInit, Component, ElementRef, Input, OnInit, Renderer2, ViewChi
 })
 export class TimerComponent implements AfterViewInit {
 
-  @Input() data: any;
-  @ViewChild("timeUsed") timeUsed!: ElementRef;
+  constructor(private renderer:Renderer2) {}
+
+  @Input() data!: TimerData;
+  @ViewChild("timeLeft") timeLeft!: ElementRef;
   timing: Boolean = false;
   interval: any;
 
-  constructor(private renderer:Renderer2) {}
-
   ngAfterViewInit() {
-    this.renderer.setStyle(this.timeUsed.nativeElement, "width", `${100 - (this.data.usedTime / this.data.totalTime) * 100}%`);
+    this.renderer.setStyle(this.timeLeft.nativeElement, "width", `${((this.data.timeLeft) / this.data.totalTime ) * 100}%`);
   }
 
-  // TODO: This doesnt properly calculate the new total time. Rewrite updateInnerTimer(), ngAfterViewInit(), timeLeft and maybe flipTimer().
   updateInnerTimer() {
-    console.log(`${((this.data.timeLeft) / this.data.totalTime ) * 100}%`);
-    console.log(this.data);
-    this.renderer.setStyle(this.timeUsed.nativeElement, "width", `${((this.data.timeLeft) / this.data.totalTime ) * 100}%`);
+    this.renderer.setStyle(this.timeLeft.nativeElement, "width", `${((this.data.timeLeft) / this.data.totalTime ) * 100}%`);
   }
 
   flipTimer() {
@@ -30,7 +28,7 @@ export class TimerComponent implements AfterViewInit {
       this.timing = !this.timing;
       this.interval = setInterval(() => {
         if(this.data.timeLeft > 0){
-          this.data.timeLeft = this.data.timeLeft - 60;
+          this.data.timeLeft = this.data.timeLeft - 1;
           this.updateInnerTimer();
         }
       }, this.data.timeLeft)
