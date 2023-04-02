@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TimerDataServiceService } from '../service/timer-data-service.service';
+import { TimerData } from './timer/TimerData';
 
 @Component({
   selector: 'app-timers-menu',
@@ -7,9 +9,16 @@ import { Component } from '@angular/core';
 })
 export class TimersMenuComponent {
 
-  timerJson = {
-    title: 'This is a title',
-    totalTime: 3600,
-    timeLeft: 1200
+  constructor(private timerService: TimerDataServiceService) {}
+
+  ngOnInit(){
+    this.timerService.timerData$.subscribe(data => this.timers = data);
   }
+
+  timers!: TimerData[];
+
+  test(){
+    console.log(this.timers);
+  }
+
 }

@@ -1,4 +1,5 @@
 <div class="container">
-  <input placeholder="Name of Timer">
-  <input placeholder="Time in Minutes">
+  <input #name placeholder="Name of Timer">
+  <input #time appNumericOnly placeholder="Time in Minutes">
+  <button class="submit" (click)="createTimer(name.value, time.value)" >Submit</button>
 </div>

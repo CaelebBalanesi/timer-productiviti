@@ -10,6 +10,7 @@ import { NewTimerMenuComponent } from './pages/homepage/new-timer-menu/new-timer
 import { TimerComponent } from './pages/homepage/timers-menu/timer/timer.component';
 import { TimePipe } from './pages/homepage/timers-menu/timer/time.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { NumericOnlyDirective } from './pages/homepage/new-timer-menu/numeric-only.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     TimersMenuComponent,
     NewTimerMenuComponent,
     TimerComponent,
-    TimePipe
+    TimePipe,
+    NumericOnlyDirective
   ],
   imports: [
     BrowserModule,

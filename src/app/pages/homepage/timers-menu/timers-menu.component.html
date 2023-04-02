@@ -1,1 +1,3 @@
-<app-timer [data]="timerJson"></app-timer>
+<app-timer *ngFor="let timer of timers" [data]="timer"></app-timer>
+<div *ngFor="let timer of timers" > timer </div>
+<button (click)="test()">test</button>
